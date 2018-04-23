@@ -9,13 +9,10 @@ For Packet Baremetal Host, Terraform is being used for managing the lifecycle of
 2. [Server deployment using Module **] (./ServerDeploymentUsingModule)
 3. [Cluster Deployment (Master/Slave for OpenStack/Kubernetes)] (./ClusterDeployment)
 4. [Cluster Deployment with Reserved Hardware] (./ClusterDeploymentWthResvedHw)
-5. [Server Deployment with Custom Images] () ***
 
 ** Terraform modules do not currently support count, and so reusing a module a dynamic number of ways is impossible.
 More info regarding the limitation is discussed in the link below:
 <https://serialseb.com/blog/2016/05/11/terraform-working-around-no-count-on-module/>
-
-*** Work in Progress
 
 ## Pre-requisites
 

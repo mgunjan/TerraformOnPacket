@@ -1,0 +1,12 @@
+#cloud-config
+users:
+  - name: sprint
+    ssh-authorized-keys:
+      -  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC0bsNJbIzZij+GlRSFRLYjV+xbtytEnqHLSWiFu8pJhNX/5LCWiUVAnhZoGHYIvK5IE3UARcneIvfFlwUxbglVq76LjM63kTZVNcnyc/30pItev1Sl2mdZ53tX9YSGBju1tO4ycYVwZ5LBUzKisZye4jaHCyiLEa72oWPq4ThGmhF7LSKlzM9jjDmgSIpYaFFLEVn8lYTZ3upz0LVGsiMejZ8AFtGUU34bbytJ5fvmgOyJGBCnpSlu/WFWXd369KnVJ/bVUP0YfOpYcHpB4vpCXC4eVoiZdC+QYb1cS9Ql7l9WdyKVAORgHYtNpH0XOTZ4AK+1SDS0Fy/wIKPM819j zt385835@CLMC02T420EG8WL
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    groups: sudo
+    gecos: Sprint User account for managing host using Ansible
+    shell: /bin/bash
+    home: /home/sprint
+    lock_passwd: True
+    plain_text_passwd: '3pr1ntPack3t!'

@@ -2,7 +2,6 @@
 
 For Packet Baremetal Host, Terraform is being used for managing the lifecycle of the servers. Terraform is a powerful tool for building, changing, and versioning infrastructure safely and efficiently. Terraform has Packet Provider which is responsible for interacting with Packet API and exposing available resources on the Packet Baremetal hosting service. 
 
-This repository is the compilation of Terraform scripts encompassing all of Sprint's Usecases. Please contact ***milind.gunjan@sprint.com*** for adding any additional scenario which may be missing
 
 ## Scenarios
 
